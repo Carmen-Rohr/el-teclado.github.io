@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EL TECLADO</title>    
+    <!-- Insertamos el archivo CSS compilado y comprimido -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Theme opcional -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+  </head>
+
+  <body>
+
+    <dialog id="ganaste">
+      <img src="./img/ganaste.gif" id="imagen-ganaste" alt="ganaste" width="75%">
+      <img src="./img/animales festejando.gif" />
+      <button id="close">CONTINUAR</button>
+    </dialog>  
+
+    <div class="contenedor">
+      <img src="./img/estrella1.png" id="estrella1" alt="estrella" width="10%" height="10%" style="display:none">
+      <img src="./img/estrella2.png" id="estrella2" alt="estrella" width="10%" height="10%" style="display:none">
+      <img src="./img/estrella3.png" id="estrella3" alt="estrella" width="10%" height="10%">
+      <img src="./img/estrella4.png" id="estrella4" alt="estrella" width="10%" height="10%" style="display:none">
+       
+      <header class="cabecera">
+            
+            <img src="./img/tele.jfif" alt="TELE" class="imagen" width="15%" height="15%">
+            <div id="texto"> </div>
+        </header>
+        <main>
+            <div class="personalizar">
+                <button type="button" class="boton-teclado" id="btn-a">A</button>
+                <button type="button" class="boton-teclado" id="btn-e">E</button>
+                <button type="button" class="boton-teclado" id="btn-o">O</button>
+            </div>
+            <div class="personalizar">
+                <button type="button" class="boton-teclado" id="btn-l">L</button>
+                <button type="button" class="boton-teclado" id="btn-m">M</button>
+                <button type="button" class="boton-teclado" id="btn-t">T</button>
+            </div>
+
+            <div class="personalizar">
+              <button type="button" id="boton-teclado-borrar" onclick="clicked()"><img src="./img/flecha-borrar.jpg" alt="Borrar"></button>              
+              <a href="#" id="siguiente" style="display:none">
+                <img src="./img/flecha-sig.jpg" alt="SIGUIENTE" class="siguiente" width="30%" height="30%" style="display:none">
+              </a> 
+            </div>
+            
+        </main>
+        
+             
+       
+    </div>
+    <script src="./js/script9.js"></script>
+    <!--Insertamos jQuery dependencia de Bootstrap-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!--Insertamos el archivo JS compilado y comprimido -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
